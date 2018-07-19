@@ -16,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
         getValue();
     }
-
+    /**
+     *  sets value
+     */
 
     void setValue(){
         SharedPreferences.Editor editor = getSharedPreferences("abc", MODE_PRIVATE).edit();
